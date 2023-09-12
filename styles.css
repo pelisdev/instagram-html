@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+.post {
+    margin:50px auto;
+    background-color: white;
+    width:20%;
+    height:600px;
+    border-radius: 8px;
+}
+
+.postheader{
+    display: flex; align-items: center;
+    position: relative;
+    padding: 10px;
+}
+
+.avatar{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    position: relative;
+    margin-right: 5px;
+    border: 1px solid rgb(24, 24, 24);
+
+}
+
+.usuario{
+    display: inline-block;
+}
+.titulo{
+    font-weight: 900;
+}
+.nombre{
+    font-size: 12px;
+}
+
+.menu{
+    position: absolute;
+    right: 0;
+    top: 14px;
+    margin-right: 15px;
+}
+
+.imagen{
+    width: 100%;
+}
+
+.fa-lg {
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 30px !important;
+}
+.icono-der{
+    position: absolute;
+    right: 0;
+    margin-right: 8px;
+}
+
+.iconos{
+    position: relative;
+    display: flex;
+    padding: 5px;
+}
+
+.descripcion{
+    padding: 10px;
+}
+
+.fa-heart:hover{
+    color: #ff6262;
+    font-size: 35px !important;
+}
